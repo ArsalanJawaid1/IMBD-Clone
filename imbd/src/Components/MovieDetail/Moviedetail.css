@@ -1,0 +1,41 @@
+.movie_Poster {
+  display: flex;
+  justify-content: center;
+}
+.movieDetail_left {
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  height: 310px;
+}
+.movieDetail_left img {
+  width: 220px;
+  height: 100%;
+  border-radius: 10px;
+}
+.movieDetail_right{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 360px;
+  left: 440px;
+}
+.movie_title{
+  font-size: 2.5rem;
+  margin-bottom: 9px;
+}
+.movie_tagline{
+  margin-bottom: 9px;
+}
+.movie_rating{
+  margin-bottom: 9px;
+}
+.movie_voteCount{
+  float: right;
+}
+.movie_runtime{
+  margin-bottom: 9px;
+}
+.movie_geners{
+  color: black;
+}

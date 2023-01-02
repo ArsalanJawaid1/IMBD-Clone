@@ -1,0 +1,57 @@
+.card_container {
+  /* display: inline-block;
+  flex-wrap: wrap; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  max-width: 170px;
+  cursor: pointer;
+  margin: 0.24rem;
+  height: 240px;
+  z-index: 0;
+}
+
+.card_container:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+  transition: 0.2s;
+}
+.card_img {
+  width: 100%;
+  height: 100%;
+}
+.card_overlay {
+  position: absolute;
+  top: 40px;
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 85%;
+  transition: opacity .2s;
+  color: white;
+  opacity: 0;
+}
+.card_overlay:hover{
+  opacity: 1;
+}
+.card_title {
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+.card_runnTime {
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.card_rating {
+  float: right;
+  font-size: 0.75rem;
+
+}
+.card_description {
+  font-style: italic;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
